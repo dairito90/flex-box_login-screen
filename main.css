@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Forza-Book;
+    src: url(Fonts/Forza-Book.otf);
+}
+
+@font-face {
+    font-family: Forza-Medium;
+    src: url(Fonts/Forza-Medium.otf);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+img {
+    width: 50%;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    flex: 2;
+    font-family: Forza-Book;
+    letter-spacing: 0.3rem;
+    font-size: 0.9rem;
+}
+
+::-webkit-input-placeholder {
+    color: #B4DAA6;
+}
+
+.input-container {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.loginlogout {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.btn1 {
+    background-color: #9CCF8A;
+    padding: 6%;
+    font-family: Forza-Book;
+    font-size: 0.7rem;
+    color: #EDF5E9;
+    border: none;
+    letter-spacing: 0.2rem;
+}
+
+.btn2 {
+    background-color: #7D7773;
+    padding: 6%;
+    font-family: Forza-Book;
+    font-size: 0.7rem;
+    color: #EDF5E9;
+    border: none;
+    letter-spacing: 0.2rem;
+}
+
+h4 {
+    font-family: Forza-Book;
+    color: #948F8D;
+    flex: 1;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+}
